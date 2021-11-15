@@ -1,0 +1,92 @@
+.full-cards
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+  
+
+}
+.full-card{
+    padding: 10px 0;
+    width: 60%;
+   border-radius: 0px;
+background: #ffffff;
+box-shadow:  9px 9px 18px #999999,
+             -9px -9px 18px #ffffff;
+}
+
+.mybook-section{
+    display: flex;
+}
+
+.room-details-section{
+    display: flex;
+    width: 35%;
+}
+
+.room-details-section  .image-div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.room-details-section .details-div{
+    width: 50%;
+}
+
+.order-details-section{
+    width: 40%;
+}
+
+.button-section{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-details{
+    line-height: 20px;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+
+
+.mybook-section{
+    flex-direction: column;
+}
+.full-card{
+    width: 100%;
+}
+.room-details-section
+{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.room-details-section  .image-div{
+    width: 100%;
+     align-items: flex-start;
+    
+}
+
+.room-details-section .details-div{
+    width: 100%;
+    justify-content: center;
+}
+.order-details-section{
+    padding-left: 20px;
+}
+.button-section{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+}

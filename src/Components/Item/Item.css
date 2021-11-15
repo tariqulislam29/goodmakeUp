@@ -1,0 +1,15 @@
+.card-design{
+    height: 630px;
+}
+.image-size{
+height: 298px;
+width:100%;
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.card-design{
+    height: 700px;
+}
+
+
+}

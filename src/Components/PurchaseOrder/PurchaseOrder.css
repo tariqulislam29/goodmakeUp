@@ -1,0 +1,54 @@
+.image-size1{
+    height: 298px;
+    width: 298px;
+}
+.purchaseOrder{
+    height: 100vh;
+}
+
+
+/* check css */
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+.check-detail{
+ width: 100%;
+ 
+ 
+}
+.box-selects{
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background: #fafafa;
+
+    
+}
+
+
+.search-button{
+    background-color: rgb(255, 255, 255);
+  
+    width: 100%;
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(211, 208, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:  1s;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.check-detail{
+ width: 90%;
+}
+
+
+
+
+}

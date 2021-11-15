@@ -1,23 +1,55 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+
+} from "react-router-dom";
+import Home from './Components/Home/Home';
+import Explore from './Components/Explore/Explore';
+import PurchaseOrder from './Components/PurchaseOrder/PurchaseOrder';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
+import AuthProvider from './context/AuthProvider';
+import Dashboard from './Components/Dashboard/Dashboard';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <AuthProvider>
+        <Router>
+
+          <Switch>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/explore">
+              <Explore></Explore>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
+            </Route>
+            <Route path="/dashboard">
+              <Dashboard></Dashboard>
+            </Route>
+            <Route path='/purchaseOrder/:id'>
+              <PurchaseOrder></PurchaseOrder>
+            </Route>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+
+          </Switch>
+
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

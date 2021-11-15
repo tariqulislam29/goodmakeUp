@@ -1,0 +1,51 @@
+.makeup-text{
+color: #fab1a0 !important;
+}
+.makeup-bg{
+background-color: #fab1a0 !important;
+}
+.makeup-nav{
+    text-align: left;
+    
+}
+ .navbar-toggler-icon{
+     
+     background-color: #fab1a0 !important;
+     padding: 20px !important;
+     border-radius: 5px;
+ }
+
+.nav-toggle{
+    margin-left: 50%
+}
+.navItem{
+    margin-right: 50px;
+}
+
+.head{
+    border-bottom: 1px solid #fab1a0;
+}
+.admin{
+    display: flex;
+}
+.admin button{
+    border:none;
+    color: #fab1a0;
+  
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.admin{
+    flex-direction: column;
+   
+}
+.admin button {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 18px;
+}
+
+
+}

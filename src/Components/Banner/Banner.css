@@ -1,0 +1,23 @@
+
+.banner-img{
+    height: 80vh !important;
+}
+.banner-img img{
+    max-width: 100%;
+}
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+    color: black;
+   
+}
+.carousel-caption h3 {
+    font-size: 4rem;
+    color: white;
+    
+}
+.carousel-caption p{
+    font-size: 2rem;
+    color: white;
+}

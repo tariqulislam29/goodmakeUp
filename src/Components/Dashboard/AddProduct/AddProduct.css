@@ -1,0 +1,41 @@
+.add-details{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.add-selects{
+    width: 50%;
+    border: 1px solid rgb(209, 208, 208);
+
+   padding: 20px;          
+}
+
+.input-field1{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.input-field2{
+    height: 40px;
+}
+
+.input-btn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+  
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.add-selects{
+    width: 90%;
+}
+
+
+}
