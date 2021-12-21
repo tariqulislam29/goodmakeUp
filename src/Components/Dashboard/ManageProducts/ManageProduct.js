@@ -30,10 +30,10 @@ const ManageProduct = (props) => {
             <Col className="col-design" >
 
                 <Card className="card card-design makeup-bg text-center">
-                    <Card.Img variant="top" src={img} className="image-size" />
+                    <Card.Img variant="top" src={img} className="image-size mx-auto mt-1" />
                     <Card.Body >
                         <Card.Title className="card-title fw-bold mb-4">{name}</Card.Title>
-                        <p className="text-start">{description}</p>
+                        <p className="text-start">{description.substring(0, 100)}...</p>
                         <p className="text-center">${price}</p>
                     </Card.Body>
                     <div>

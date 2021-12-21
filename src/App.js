@@ -15,6 +15,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import Dashboard from './Components/Dashboard/Dashboard';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -39,9 +40,9 @@ function App() {
             <Route path="/dashboard">
               <Dashboard></Dashboard>
             </Route>
-            <Route path='/purchaseOrder/:id'>
+            <PrivateRoute path='/purchaseOrder/:id'>
               <PurchaseOrder></PurchaseOrder>
-            </Route>
+            </PrivateRoute>
             <Route exact path="/">
               <Home></Home>
             </Route>

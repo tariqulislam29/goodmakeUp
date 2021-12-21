@@ -36,7 +36,7 @@ const Items = () => {
                 <hr className="container makeup-text " />
 
 
-                <Row xs={1} md={4} className="g-4 m-5 custom-row">
+                <Row xs={1} md={3} className="g-4 m-5 custom-row">
                     {
                         homeItems.map(item => <Item
                             key={item.key}

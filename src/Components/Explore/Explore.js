@@ -38,7 +38,7 @@ const Explore = () => {
                 <hr className="container makeup-text " />
 
 
-                <Row xs={1} md={4} className="g-4 m-5 custom-row">
+                <Row xs={1} md={3} className="g-4 m-5 custom-row">
                     {
                         items.map(item => <Item
                             key={item.key}

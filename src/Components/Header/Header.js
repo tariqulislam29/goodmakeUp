@@ -11,8 +11,8 @@ export default function Header() {
             <header>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="light" >
                     <Container>
-                        <Nav.Link> <Navbar.Brand className="fw-bold fs-5 text-light">Good Make<span className="makeup-text fs-1">UP</span></Navbar.Brand></Nav.Link>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-toggle " />
+                        <Nav.Link> <Navbar.Brand className="fw-bold fs-5 text-light text-style">Good Make<span className="makeup-text fs-1">UP</span></Navbar.Brand></Nav.Link>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-toggle w-50" />
 
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto fs-5 makeup-nav">

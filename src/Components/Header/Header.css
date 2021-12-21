@@ -38,9 +38,10 @@ background-color: #fab1a0 !important;
 @media screen and (max-width: 600px) and (min-width: 360px) {
 
 .admin{
-    flex-direction: column;
+    flex-direction:row;
    
 }
+
 .admin button {
     display: flex;
     align-items: flex-start;
